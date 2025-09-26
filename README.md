@@ -21,8 +21,4 @@ Simple FiveM resource for QBCore using ox_lib notifications. Adds a `/checkcid` 
   ```
   /checkcid
   ```
-- You'll get an ox_lib notification like `Citizen ID: ID7671D1` and your raw CID will be copied to the clipboard.
-
-## Notes
-- The script reads `QBCore.Functions.GetPlayerData().citizenid`.
-- Uses `lib.notify` and `lib.setClipboard` from ox_lib.
+- You'll get  notification like `Citizen ID: ID7671D1` and your raw CID will be copied to the clipboard.
